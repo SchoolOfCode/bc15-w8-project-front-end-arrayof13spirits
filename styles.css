@@ -23,7 +23,7 @@ html {
 } */
 
 .home--heading-header-container {
-  height: 5rem;
+  height: 3rem;
   border: 3px solid black;
   font-size: 3rem;
   font-weight: bold;
@@ -128,4 +128,11 @@ html {
 
 .home--footer {
   border: 3px solid palevioletred;
+  /* padding-block: 1rem;
+  display: grid; */
+  position: absolute;
+  bottom: 0;
 }
+  /* width: clamp(5rem, 50%, 18.7rem);
+  justify-self: flex-start;
+ padding block: 1rem
