@@ -1,57 +1,64 @@
 *,
+
 html {
   font-size: 10px;
 }
 
-/* home header ############################################################# */
+/* home header ##################################################################### */
 
 .home--heading {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	line-height: 0;
+  align-items: center;
 }
 
 .home--heading-backbutton-icon {
   border: 3px solid red;
   height: 3rem;
   display: flex;
+  padding: 5px;
 }
 
-/* .home--heading-backbutton {
-  border: 3px solid red;
-  height: 3rem;
-  display: flex;
-} */
-
 .home--heading-header-container {
-  height: 3rem;
-  border: 3px solid black;
+  border: 3px solid black ;
   font-size: 3rem;
   font-weight: bold;
-  text-align: center;
-  display: flex;
+  padding: 20px;
+  padding-left: 6.3rem;
+	padding-right: 6.3rem;
 }
 
 .home--heading-socLogo {
   border: 3px solid blue;
   height: 3rem;
   display: flex;
-  padding-left: 6.5rem;
+  padding: 5px;
 }
 
+
+
+
+
+/* home nav ########################################################################## */
+
+/* .home--logo {
+  border: 2px solid;
+} */
+
 .home--header-topics {
+  position: relative;
+  z-index: 1;
   font-size: 1.5rem;
   font-weight: bold;
   border: 2px solid green;
   display: flex;
 }
 
-/* home nav ############################################################# */
-
-/* .home--logo {
-  border: 2px solid;
-} */
-
 .home--nav-topics-list {
+  position: relative;
+  z-index: 2;
   border: 2px solid rgb(255, 174, 0);
   list-style: none;
   display: grid;
