@@ -4,7 +4,6 @@ html {
   font-size: 10px;
 }
 
-
 /* home header ############################################################# */
 
 .home--heading {
@@ -12,11 +11,17 @@ html {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.home--heading-backbutton {
+.home--heading-backbutton-icon {
   border: 3px solid red;
   height: 3rem;
   display: flex;
 }
+
+/* .home--heading-backbutton {
+  border: 3px solid red;
+  height: 3rem;
+  display: flex;
+} */
 
 .home--heading-header-container {
   height: 5rem;
@@ -41,18 +46,48 @@ html {
   display: flex;
 }
 
-
 /* home nav ############################################################# */
 
 .home--nav {
-  
 }
 
 .home--nav-topics-list {
   border: 2px solid rgb(255, 174, 0);
   list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 10px;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
 }
 
+.home--be-logo {
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+  /* border: 3px solid black; */
+}
+
+.home--js-logo {
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+  /* border: 3px solid purple; */
+}
+
+/* 
+.home--nav-topics-list {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+}
+.home--nav-topics-list li {
+  display: inline;
+  margin-right: 10px; 
+} */
 
 /* home main ############################################################# */
 
@@ -60,6 +95,8 @@ html {
   border: 3px solid brown;
 }
 
-
 /* home footer ############################################################# */
 
+.home--footer {
+  border: 3px solid palevioletred;
+}
