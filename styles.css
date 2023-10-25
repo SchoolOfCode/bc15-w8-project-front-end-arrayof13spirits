@@ -26,8 +26,8 @@ html {
   font-size: 3rem;
   font-weight: bold;
   padding: 20px;
-  padding-left: 6.3rem;
-	padding-right: 6.3rem;
+  padding-left: 7.45rem;
+	padding-right: 7.45rem;
 }
 
 .home--heading-socLogo {
@@ -43,27 +43,19 @@ html {
 
 /* home nav ########################################################################## */
 
-/* .home--logo {
-  border: 2px solid;
-} */
-
-.home--header-topics {
-  position: relative;
-  z-index: 1;
-  font-size: 1.5rem;
+.home--nav {
+  border: 2px solid black ;
+  font-size: 3rem;
   font-weight: bold;
-  border: 2px solid green;
-  display: flex;
+  padding: 2px;
 }
 
 .home--nav-topics-list {
-  position: relative;
-  z-index: 2;
   border: 2px solid rgb(255, 174, 0);
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  margin: 10px;
+  margin: 0;
   padding: 0;
   align-items: center;
   text-align: center;
@@ -71,11 +63,12 @@ html {
   font-size: large;
 }
 
+/* LOGOS */
+
 .home--be-logo {
   display: flex;
   height: 5rem;
   width: 5rem;
-  border: 3px solid black;
 }
 
 .home--js-logo {
@@ -85,14 +78,12 @@ html {
   padding-top: 4px;
   padding-left: 8px;
   align-self: center;
-  /* border: 3px solid purple; */
 }
 
 .home--html-logo {
   display: flex;
   height: 5rem;
   width: 5rem;
-  /* border: 3px solid purple; */
 }
 
 .home--testing-logo {
@@ -114,24 +105,27 @@ html {
   margin-top: 5px;
 }
 
-/* 
-.home--nav-topics-list {
-  list-style: none; 
-  padding: 0; 
-  margin: 0; 
-}
-.home--nav-topics-list li {
-  display: inline;
-  margin-right: 10px; 
-} */
 
-/* home main ############################################################# */
+
+
+
+
+
+/* home main ####################################################################### */
 
 .home--main {
   border: 3px solid brown;
 }
 
-/* home footer ############################################################# */
+
+
+
+
+
+
+
+
+/* home footer ##################################################################### */
 
 .home--footer {
   border: 3px solid palevioletred;
