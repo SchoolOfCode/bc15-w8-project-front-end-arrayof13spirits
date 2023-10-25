@@ -1,20 +1,24 @@
+/* root  */
 *,
 html {
   font-size: 10px;
 }
 
-.heading {
+
+/* home header ############################################################# */
+
+.home--heading {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.back-button {
+.home--heading-backbutton {
   border: 3px solid red;
   height: 3rem;
   display: flex;
 }
 
-.header-container {
+.home--heading-header-container {
   height: 5rem;
   border: 3px solid black;
   font-size: 3rem;
@@ -23,25 +27,39 @@ html {
   display: flex;
 }
 
-.socLogo {
+.home--heading-socLogo {
   border: 3px solid blue;
   height: 3rem;
   display: flex;
   padding-left: 6.5rem;
 }
 
-.topics {
+.home--header-topics {
   font-size: 1.5rem;
   font-weight: bold;
   border: 2px solid green;
   display: flex;
 }
 
-.list-of-topics {
+
+/* home nav ############################################################# */
+
+.home--nav {
+  
+}
+
+.home--nav-topics-list {
   border: 2px solid rgb(255, 174, 0);
   list-style: none;
 }
 
-main {
+
+/* home main ############################################################# */
+
+.home--main {
   border: 3px solid brown;
 }
+
+
+/* home footer ############################################################# */
+
