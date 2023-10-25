@@ -46,10 +46,11 @@ html {
 /* home nav ########################################################################## */
 
 .home--nav {
-  border: 2px solid black ;
+  border: 1.8px solid black ;
+  border-radius: 5px;
   font-size: 3rem;
   font-weight: bold;
-  padding: 2px;
+  padding: 4px;
 }
 
 .home--nav-topics-list {
@@ -134,7 +135,8 @@ html {
 
 .home--link-one {
   /* border: 3px solid blue; */
-  font-weight: bold;
+  border-radius: 5px;
+  font-weight: normal;
   background-color: #88A0A8;
   margin-bottom: 10px;
   font-size: 20px;
@@ -143,7 +145,8 @@ html {
 
 .home--link-two {
   /* border: 3px solid blue; */
-  font-weight: bold;
+  border-radius: 5px;
+  font-weight: normal;
   background-color: #88A0A8;
   margin-bottom: 10px;
   font-size: 20px;
@@ -151,13 +154,15 @@ html {
 
 .home--link-three {
   /* border: 3px solid blue; */
-  font-weight: bold;
+  border-radius: 5px;
+  font-weight: normal;
   background-color: #88A0A8;
   margin-bottom: 10px;
   font-size: 20px;
 }
 
-.main--sql-pic{
+.main--sql-pic {
+  border-radius: 5px;  
   display: flex;
   height: 245px;
   width: auto;
@@ -174,6 +179,7 @@ html {
 
 .home--footer {
   border: 3px solid #263D42;
+  border-radius: 5px; 
   width: auto;
   position: absolute;
   bottom: 0;
@@ -185,8 +191,8 @@ html {
 
 .home--footer {
   grid-area: p1;
-  text-align:justify;
-  border: 3px solid pink;
+  text-align:left;
+  border: 3px solid black;
   display: flex;
   margin-top: 2rem;
   /* padding-left: 2rem; */
@@ -195,10 +201,7 @@ html {
 .home--copyright {
   grid-area: p3;
   text-align: right;
-  border: 3px solid black;
+  border: 1px solid;
   display: flex;
   margin-left: 15rem;
 }
-  /* width: clamp(5rem, 50%, 18.7rem);
-  justify-self: flex-start;
- padding block: 1rem
