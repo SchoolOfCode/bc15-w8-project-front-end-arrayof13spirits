@@ -27,9 +27,21 @@ html {
   border: 3px solid blue;
   height: 3rem;
   display: flex;
-  padding-left: 4rem;
+  padding-left: 6.5rem;
+}
+
+.topics {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 2px solid green;
+  display: flex;
 }
 
 .list-of-topics {
+  border: 2px solid rgb(255, 174, 0);
   list-style: none;
+}
+
+main {
+  border: 3px solid brown;
 }
