@@ -3,12 +3,13 @@
 html {
   font-size: 10px;
   background-color: #CCDBDC;
+  /* background-color: #FFFCF9; */
 }
 
 /* home header ##################################################################### */
 
 .home--heading {
-	background-color: white;
+	/* background-color: white; */
 	display: flex;
 	flex-direction: row;
 	line-height: 0;
@@ -16,14 +17,14 @@ html {
 }
 
 .home--heading-backbutton-icon {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   height: 3rem;
   display: flex;
   padding: 5px;
 }
 
 .home--heading-header-container {
-  border: 3px solid black ;
+  /* border: 3px solid black ; */
   font-size: 2.5rem;
   font-weight: bold;
   padding: 20px;
@@ -32,7 +33,7 @@ html {
 }
 
 .home--heading-socLogo {
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   height: 3rem;
   display: flex;
   padding: 5px;
@@ -52,7 +53,7 @@ html {
 }
 
 .home--nav-topics-list {
-  border: 2px solid rgb(255, 174, 0);
+  /* border: 2px solid rgb(255, 174, 0); */
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -71,6 +72,7 @@ html {
   display: flex;
   height: 5rem;
   width: 5rem;
+  margin-left: 5px;
 }
 
 .home--js-logo {
@@ -116,13 +118,50 @@ html {
 /* home main ####################################################################### */
 
 .home--main {
-  border: 3px solid brown;
+  /* border: 3px solid brown; */
+}
+
+.home--resource-links {
+  margin-top: 2rem;
+}
+
+.home--jslogo {
+  height: 3rem;
+  width: 3rem;
+  /* padding-left: 5px; */
+
+}
+
+.home--link-one {
+  /* border: 3px solid blue; */
+  font-weight: bold;
+  background-color: #88A0A8;
+  margin-bottom: 10px;
+  font-size: 25px;
+
+}
+
+.home--link-two {
+  /* border: 3px solid blue; */
+  font-weight: bold;
+  background-color: #88A0A8;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.home--link-three {
+  /* border: 3px solid blue; */
+  font-weight: bold;
+  background-color: #88A0A8;
+  margin-bottom: 10px;
+  font-size: 25px;
 }
 
 .main--sql-pic{
   display: flex;
   height: 245px;
   width: auto;
+  margin: 5px;
 }
 
 
@@ -138,6 +177,27 @@ html {
   width: auto;
   position: absolute;
   bottom: 0;
+  margin-bottom: 10px;
+  display: grid;
+  /* grid-template-columns: 1fr 2fr 1fr; */
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+.home--footer {
+  grid-area: p1;
+  text-align:justify;
+  border: 3px solid pink;
+  display: flex;
+  margin-top: 2rem;
+  /* padding-left: 2rem; */
+}
+
+.home--copyright {
+  grid-area: p3;
+  text-align: right;
+  border: 3px solid black;
+  display: flex;
+  margin-left: 15rem;
 }
   /* width: clamp(5rem, 50%, 18.7rem);
   justify-self: flex-start;
