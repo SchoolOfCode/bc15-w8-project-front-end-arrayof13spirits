@@ -37,8 +37,8 @@ html {
   height: 3rem;
   display: flex;
   padding: 5px;
-}
 
+}
 
 
 
@@ -137,7 +137,7 @@ html {
   font-weight: bold;
   background-color: #88A0A8;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 20px;
 
 }
 
@@ -146,7 +146,7 @@ html {
   font-weight: bold;
   background-color: #88A0A8;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .home--link-three {
@@ -154,7 +154,7 @@ html {
   font-weight: bold;
   background-color: #88A0A8;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .main--sql-pic{
