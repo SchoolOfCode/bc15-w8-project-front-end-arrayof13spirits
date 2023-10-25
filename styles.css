@@ -2,6 +2,7 @@
 
 html {
   font-size: 10px;
+  background-color: #CCDBDC;
 }
 
 /* home header ##################################################################### */
@@ -23,11 +24,11 @@ html {
 
 .home--heading-header-container {
   border: 3px solid black ;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   padding: 20px;
-  padding-left: 7.45rem;
-	padding-right: 7.45rem;
+  padding-left: 8.1rem;
+	padding-right: 8.1rem;
 }
 
 .home--heading-socLogo {
@@ -59,6 +60,7 @@ html {
   padding: 0;
   align-items: center;
   text-align: center;
+  color: #263D42;
   font-weight: bold;
   font-size: large;
 }
@@ -117,7 +119,11 @@ html {
   border: 3px solid brown;
 }
 
-
+.main--sql-pic{
+  display: flex;
+  height: 245px;
+  width: auto;
+}
 
 
 
@@ -128,9 +134,8 @@ html {
 /* home footer ##################################################################### */
 
 .home--footer {
-  border: 3px solid palevioletred;
-  /* padding-block: 1rem;
-  display: grid; */
+  border: 3px solid #263D42;
+  width: auto;
   position: absolute;
   bottom: 0;
 }
