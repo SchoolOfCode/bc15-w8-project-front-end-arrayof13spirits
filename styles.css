@@ -48,8 +48,9 @@ html {
 
 /* home nav ############################################################# */
 
-.home--nav {
-}
+/* .home--logo {
+  border: 2px solid;
+} */
 
 .home--nav-topics-list {
   border: 2px solid rgb(255, 174, 0);
@@ -68,14 +69,43 @@ html {
   display: flex;
   height: 5rem;
   width: 5rem;
-  /* border: 3px solid black; */
+  border: 3px solid black;
 }
 
 .home--js-logo {
   display: flex;
+  height: 4rem;
+  width: 4rem;
+  padding-top: 4px;
+  padding-left: 8px;
+  align-self: center;
+  /* border: 3px solid purple; */
+}
+
+.home--html-logo {
+  display: flex;
   height: 5rem;
   width: 5rem;
   /* border: 3px solid purple; */
+}
+
+.home--testing-logo {
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+}
+
+.home--databases-logo {
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+}
+
+.home--cgpt-logo {
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+  margin-top: 5px;
 }
 
 /* 
