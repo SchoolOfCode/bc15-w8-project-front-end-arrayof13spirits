@@ -31,5 +31,5 @@ html {
 }
 
 .list-of-topics {
-  text-decoration: none;
+  list-style: none;
 }
