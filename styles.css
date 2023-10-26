@@ -133,6 +133,28 @@ html {
   margin-left: 5px;
 }
 
+.home--first-link {
+  font-size: 15px;
+  margin-left: 5px;
+  text-decoration: none;
+  background-color: #88a0a8;
+  /* border: 2px solid blue; */
+}
+
+.home--second-link {
+  font-size: 15px;
+  margin-left: 5px;
+  text-decoration: none;
+  background-color: #88a0a8;
+}
+
+.home--third-link {
+  font-size: 15px;
+  margin-left: 5px;
+  text-decoration: none;
+  background-color: #88a0a8;
+}
+
 .home--link-two {
   /* border: 3px solid blue; */
   border-radius: 5px;
@@ -161,16 +183,15 @@ html {
   margin: 5px;
 }
 .resource-button {
-    border-radius: 5px;
-    font-weight: normal;
-    background-color: #88a0a8;
-    margin-bottom: 15px;
-    font-size: 15px;
-    width: 35%;
-    margin-top: 20rem;
-    margin-left: 1rem;
+  border-radius: 5px;
+  font-weight: normal;
+  background-color: #88a0a8;
+  margin-bottom: 15px;
+  font-size: 15px;
+  width: 35%;
+  margin-top: 20rem;
+  margin-left: 1rem;
 }
-
 
 /* .home--addbtn {
   border-radius: 5px;
@@ -181,12 +202,6 @@ html {
   width: 35%;
   margin-top: 20rem;
   margin-left: 1rem; */
-
-
-
-
-
-
 
 /* home footer ##################################################################### */
 
