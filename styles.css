@@ -27,8 +27,9 @@ html {
   font-size: 2.5rem;
   font-weight: bold;
   padding: 20px;
-  padding-left: 8rem;
-  padding-right: 8rem;
+  padding-left: 8.7rem;
+  padding-right: 9rem;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .home--heading-socLogo {
@@ -37,6 +38,13 @@ html {
   display: flex;
   padding: 5px;
   margin-left: 20px;
+}
+
+.home--soc-logo {
+  /* border: 3px solid; */
+  height: 5rem;
+  /* width: 12rem; */
+  /* background-color: antiquewhite; */
 }
 
 /* home nav ########################################################################## */
@@ -182,7 +190,7 @@ html {
   margin-left: 5px;
 }
 
-.main--sql-pic {
+.main--js-pic {
   border-radius: 5px;
   display: flex;
   height: 245px;
