@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOCHub App</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add a resource</title>
     <link rel="stylesheet" href="styles-two.css" />
-</head>
-<body>
-</body>
+  </head>
+  <body>
+    <header class="home--heading">
+      <div class="home--heading-backbutton">
+        <a href="/" class="home--heading-backbutton-icon">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/93/93634.png"
+            alt="back button"/>
+        </a>
+      </div>
+      <div class="home--heading-header-container">SOC-HUB</div>
+      <div class="home--heading-socLogo">
+        <img
+        class="SoC"
+        src="soc-logo.png"
+        alt="SoC-logo"
+        />
+      </div>
+    </header>
+    <nav class="home--nav">
+        <div>
+          <ul class="home--nav-topics-list">
+            <li>
+            <img
+              class="home--be-logo"
+              src="https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png"
+              alt="nodejs logo"
+            />
+            Back-end
+          </li>
+        <li>
+          <img
+            class="home--js-logo"
+            src="https://www.computerhope.com/jargon/j/javascript.png"
+            alt="js logo"
+          />JS Foundations
+        </li>
+        </class>
+        <li>
+          <img
+            class="home--html-logo"
+            src="https://rapidapi.com/blog/wp-content/uploads/2018/06/logo-2582748_640.png"
+            alt="html-logo"
+          />Front-end
+        </li>
+        <li>
+          <img
+            class="home--testing-logo"
+            src="https://cdn-icons-png.flaticon.com/512/1875/1875660.png"
+            alt="testing-logo"
+          />Testing
+        </li>
+        <li>
+          <img
+            class="home--databases-logo"
+            src="sql-logo.png"
+            alt="sql-logo"
+          />Databases
+        </li>
+        <li>
+          <img
+            class="home--cgpt-logo"
+            src="ChatGPT.png"
+            alt="chatgpt logo"
+          />External topics
+        </li>
+      </ul>
+      </div>
+    </nav>
+    <form class="home--input">
+        <label for="title">Insert resource title here:</label><br>
+        <input type="text" required ><br>
+        <label for="link">Insert resource link here:</label><br>
+        <input type="text" required ><br>
+        <label for="topic">Insert resource topic here:</label><br>
+        <input type="text" required ><br>
+      </form>
+      <div class="home--btn-div"><button type="button">Submit</button></div>
+    <footer class="home--footer">
+      <div class="home--footer-contents">
+        <p class="home--coach-contact">Coach Contact</p>
+        <p class="home--copyright">© Created by Array Of 13 Spirits
+            School Of Code Bootcamp, Cohort 15
+            October 2023</p>
+      </div>
+    </footer>
+  </body>
 </html>
