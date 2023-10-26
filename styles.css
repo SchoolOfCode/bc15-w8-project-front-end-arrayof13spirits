@@ -130,7 +130,7 @@ html {
   background-color: #88a0a8;
   margin-bottom: 10px;
   font-size: 20px;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 .home--link-two {
@@ -160,8 +160,19 @@ html {
   width: 100%;
   margin: 5px;
 }
+.resource-button {
+    border-radius: 5px;
+    font-weight: normal;
+    background-color: #88a0a8;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 35%;
+    margin-top: 20rem;
+    margin-left: 1rem;
+}
 
-.home--addbtn {
+
+/* .home--addbtn {
   border-radius: 5px;
   font-weight: normal;
   background-color: #88a0a8;
@@ -169,11 +180,7 @@ html {
   font-size: 20px;
   width: 35%;
   margin-top: 20rem;
-  margin-left: 1rem;
-}
-<div>
-  <p>This is a <a href=“https://www.example.com”>link to Example</a>.</p>
-</div>
+  margin-left: 1rem; */
 
 
 
