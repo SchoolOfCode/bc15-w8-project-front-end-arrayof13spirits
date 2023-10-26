@@ -167,7 +167,9 @@ html {
   margin-top: 20rem;
   margin-left: 1rem;
 }
-
+<div>
+  <p>This is a <a href=“https://www.example.com”>link to Example</a>.</p>
+</div>
 /* home footer ##################################################################### */
 
 .home--footer {
