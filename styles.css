@@ -138,6 +138,9 @@ html {
   margin-left: 5px;
   text-decoration: none;
   background-color: #88a0a8;
+  color: #263d42;
+  font-weight: bold;
+
   /* border: 2px solid blue; */
 }
 
@@ -146,6 +149,8 @@ html {
   margin-left: 5px;
   text-decoration: none;
   background-color: #88a0a8;
+  color: #263d42;
+  font-weight: bold;
 }
 
 .home--third-link {
@@ -153,6 +158,8 @@ html {
   margin-left: 5px;
   text-decoration: none;
   background-color: #88a0a8;
+  color: #263d42;
+  font-weight: bold;
 }
 
 .home--link-two {
@@ -193,6 +200,14 @@ html {
   margin-left: 1rem;
 }
 
+.resource-btn-style {
+  text-decoration: none;
+  background-color: #88a0a8;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #263d42;
+}
+
 /* .home--addbtn {
   border-radius: 5px;
   font-weight: normal;
@@ -218,6 +233,7 @@ html {
 
 .home--coach-contact {
   background-color: #88a0a8;
+  margin-left: 5px;
 }
 
 .home--copyright {
@@ -227,4 +243,5 @@ html {
   /* border: 1px solid; */
   display: flex;
   margin-left: 15rem;
+  margin-right: 5px;
 }

@@ -112,18 +112,18 @@ html {
 .home--input {
   margin-top: 3rem;
   margin-left: 1rem;
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr; */
 }
 
 .home--input label {
   /* border: 4px solid black; */
   font-size: 2rem;
+  font-weight: bold;
 }
 
 input {
   /* border: 4px solid blue; */
   margin-bottom: 2rem;
+  border-radius: 15px;
   /* display: flex; */
 }
 
@@ -138,7 +138,18 @@ input {
   margin-left: 1rem;
 }
 
-button {
+/* button {
+  border-radius: 5px;
+  font-weight: normal;
+  background-color: #88a0a8;
+  margin-bottom: 15px;
+  font-size: 15px;
+  width: 35%;
+  margin-top: 3rem;
+  margin-left: 1rem;
+} */
+
+.submit-btn {
   border-radius: 5px;
   font-weight: normal;
   background-color: #88a0a8;
@@ -164,6 +175,7 @@ button {
 
 .home--coach-contact {
   background-color: #88a0a8;
+  margin-left: 5px;
 }
 
 .home--copyright {
@@ -173,4 +185,5 @@ button {
   /* border: 1px solid; */
   display: flex;
   margin-left: 15rem;
+  margin-right: 5px;
 }
