@@ -1,18 +1,17 @@
 *,
-
 html {
   font-size: 10px;
-  background-color: #CCDBDC;
+  background-color: #ccdbdc;
   /* background-color: #FFFCF9; */
 }
 
 /* home header ##################################################################### */
 
 .home--heading {
-	/* background-color: white; */
-	display: flex;
-	flex-direction: row;
-	line-height: 0;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: row;
+  line-height: 0;
   align-items: center;
 }
 
@@ -24,12 +23,12 @@ html {
 }
 
 .home--heading-header-container {
-  /* border: 3px solid black ; */
+  /* border: 3px solid black; */
   font-size: 2.5rem;
   font-weight: bold;
   padding: 20px;
-  padding-left: 8.1rem;
-	padding-right: 8.1rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .home--heading-socLogo {
@@ -37,16 +36,13 @@ html {
   height: 3rem;
   display: flex;
   padding: 5px;
-
+  margin-left: 20px;
 }
-
-
-
 
 /* home nav ########################################################################## */
 
 .home--nav {
-  border: 1.8px solid black ;
+  border: 1.8px solid black;
   border-radius: 5px;
   font-size: 3rem;
   font-weight: bold;
@@ -62,7 +58,7 @@ html {
   padding: 0;
   align-items: center;
   text-align: center;
-  color: #263D42;
+  color: #263d42;
   font-weight: bold;
   font-size: large;
 }
@@ -110,12 +106,6 @@ html {
   margin-top: 5px;
 }
 
-
-
-
-
-
-
 /* home main ####################################################################### */
 
 .home--main {
@@ -130,24 +120,22 @@ html {
   height: 3rem;
   width: 3rem;
   /* padding-left: 5px; */
-
 }
 
 .home--link-one {
   /* border: 3px solid blue; */
   border-radius: 5px;
   font-weight: normal;
-  background-color: #88A0A8;
+  background-color: #88a0a8;
   margin-bottom: 10px;
   font-size: 20px;
-
 }
 
 .home--link-two {
   /* border: 3px solid blue; */
   border-radius: 5px;
   font-weight: normal;
-  background-color: #88A0A8;
+  background-color: #88a0a8;
   margin-bottom: 10px;
   font-size: 20px;
 }
@@ -156,52 +144,55 @@ html {
   /* border: 3px solid blue; */
   border-radius: 5px;
   font-weight: normal;
-  background-color: #88A0A8;
+  background-color: #88a0a8;
   margin-bottom: 10px;
   font-size: 20px;
 }
 
 .main--sql-pic {
-  border-radius: 5px;  
+  border-radius: 5px;
   display: flex;
   height: 245px;
   width: auto;
   margin: 5px;
 }
 
-
-
-
-
-
+.home--addbtn {
+  border-radius: 5px;
+  font-weight: normal;
+  background-color: #88a0a8;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 35%;
+  margin-top: 20rem;
+  margin-left: 1rem;
+}
 
 /* home footer ##################################################################### */
 
 .home--footer {
-  border: 3px solid #263D42;
-  border-radius: 5px; 
-  width: auto;
+  /* border: 3px solid #263d42; */
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  /* width: auto; */
   position: absolute;
   bottom: 0;
-  margin-bottom: 10px;
-  display: grid;
-  /* grid-template-columns: 1fr 2fr 1fr; */
-  grid-template-rows: 1fr 2fr 1fr;
+  /* margin-bottom: 10px; */
+  background-color: #88a0a8;
+  /* text-align: left; */
+  display: flex;
+  /* margin-top: 2rem; */
 }
 
-.home--footer {
-  grid-area: p1;
-  text-align:left;
-  border: 3px solid black;
-  display: flex;
-  margin-top: 2rem;
-  /* padding-left: 2rem; */
+.home--coach-contact {
+  background-color: #88a0a8;
 }
 
 .home--copyright {
+  background-color: #88a0a8;
   grid-area: p3;
   text-align: right;
-  border: 1px solid;
+  /* border: 1px solid; */
   display: flex;
   margin-left: 15rem;
 }
