@@ -128,13 +128,25 @@ input {
 }
 
 .home--btn-div {
-  text-align: center;
+  border-radius: 5px;
+  font-weight: normal;
+  background-color: #88a0a8;
+  margin-bottom: 15px;
+  font-size: 15px;
+  width: 35%;
+  margin-top: 20rem;
+  margin-left: 1rem;
 }
 
 button {
-  font-size: 2rem;
-  background-color: #8e6c88;
-  color: white;
+  border-radius: 5px;
+  font-weight: normal;
+  background-color: #88a0a8;
+  margin-bottom: 15px;
+  font-size: 15px;
+  width: 35%;
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 
 /* home footer ##################################################################### */
