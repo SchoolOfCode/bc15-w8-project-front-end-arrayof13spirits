@@ -2,7 +2,7 @@
 html {
   font-size: 10px;
   background-color: #ccdbdc;
-  /* background-color: #FFFCF9; */
+  margin-left: 0;
 }
 
 /* home header ##################################################################### */
@@ -47,6 +47,7 @@ html {
   font-size: 3rem;
   font-weight: bold;
   padding: 4px;
+  margin-left: 5px;
 }
 
 .home--nav-topics-list {
@@ -129,6 +130,7 @@ html {
   background-color: #88a0a8;
   margin-bottom: 10px;
   font-size: 20px;
+  margin-left: 5px;
 }
 
 .home--link-two {
@@ -138,6 +140,7 @@ html {
   background-color: #88a0a8;
   margin-bottom: 10px;
   font-size: 20px;
+  margin-left: 5px;
 }
 
 .home--link-three {
@@ -147,13 +150,14 @@ html {
   background-color: #88a0a8;
   margin-bottom: 10px;
   font-size: 20px;
+  margin-left: 5px;
 }
 
 .main--sql-pic {
   border-radius: 5px;
   display: flex;
   height: 245px;
-  width: auto;
+  width: 100%;
   margin: 5px;
 }
 
@@ -170,20 +174,24 @@ html {
 <div>
   <p>This is a <a href=“https://www.example.com”>link to Example</a>.</p>
 </div>
+
+
+
+
+
+
+
 /* home footer ##################################################################### */
 
 .home--footer {
-  /* border: 3px solid #263d42; */
-  /* border: 2px solid black; */
-  border-radius: 5px;
-  /* width: auto; */
+  padding: 0;
+}
+
+.home--footer-contents {
+  background-color: #88a0a8;
+  display: flex;
   position: absolute;
   bottom: 0;
-  /* margin-bottom: 10px; */
-  background-color: #88a0a8;
-  /* text-align: left; */
-  display: flex;
-  /* margin-top: 2rem; */
 }
 
 .home--coach-contact {
