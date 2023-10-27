@@ -79,6 +79,7 @@ const backEndButton = document.getElementById("back-end-logoID");
 const testingButton = document.getElementById("testing--logoID");
 const databaseButton = document.getElementById("sql--logoID");
 const externalButton = document.getElementById("gpt-logoID");
+const mainPicture = document.querySelector(".main--js-pic");
 
 const location1 = document.getElementById("resource1-linkID");
 const location2 = document.getElementById("resource2-linkID");
@@ -95,6 +96,7 @@ jsButton.addEventListener("click", async function () {
   location1.href = data[0].link;
   location2.href = data[1].link;
   location3.href = data[2].link;
+  mainPicture.src = "https://www.computerhope.com/jargon/j/javascript.png";
 });
 
 // Front end resources event listener
@@ -108,6 +110,8 @@ frontEndButton.addEventListener("click", async function () {
   location1.href = data[0].link;
   location2.href = data[1].link;
   location3.href = data[2].link;
+  mainPicture.src =
+    "https://rapidapi.com/blog/wp-content/uploads/2018/06/logo-2582748_640.png";
 });
 
 // back end resources event listener
@@ -121,6 +125,8 @@ backEndButton.addEventListener("click", async function () {
   location1.href = data[0].link;
   location2.href = data[1].link;
   location3.href = data[2].link;
+  mainPicture.src =
+    "https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png";
 });
 
 // testing resources event listener
@@ -134,6 +140,7 @@ testingButton.addEventListener("click", async function () {
   location1.href = data[0].link;
   location2.href = data[1].link;
   location3.href = data[2].link;
+  mainPicture.src = "https://cdn-icons-png.flaticon.com/512/1875/1875660.png";
 });
 
 // database resources event listener
@@ -147,6 +154,7 @@ databaseButton.addEventListener("click", async function () {
   location1.href = data[0].link;
   location2.href = data[1].link;
   location3.href = data[2].link;
+  mainPicture.src = "sql-logo.png";
 });
 
 // external resources  event listener
@@ -160,4 +168,5 @@ externalButton.addEventListener("click", async function () {
   location1.href = data[0].link;
   location2.href = data[1].link;
   location3.href = data[2].link;
+  mainPicture.src = "ChatGPT.png";
 });
