@@ -88,6 +88,8 @@ html {
   padding-top: 4px;
   padding-left: 8px;
   align-self: center;
+  /* position: relative;
+  top: 1px; */
 }
 
 .home--html-logo {
@@ -252,4 +254,20 @@ html {
   display: flex;
   margin-left: 15rem;
   margin-right: 5px;
+}
+
+#resource1-link-logoID,
+#resource2-link-logoID,
+#resource3-link-logoID {
+  position: relative;
+  top: 2px;
+  left: 2px;
+  border-radius: 15px;
+}
+
+#resource1-linkID,
+#resource2-linkID,
+#resource3-linkID {
+  position: relative;
+  bottom: 8px;
 }
