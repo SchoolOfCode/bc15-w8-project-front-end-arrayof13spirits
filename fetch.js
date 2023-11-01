@@ -1,5 +1,5 @@
 const PORT = 5555;
-
+const serverUrl='https://projectweek8.onrender.com'
 let userInput = "";
 
 console.log("linked");
@@ -43,7 +43,7 @@ async function fetchResources() {
   // Declare a variable to store the HTTP response
 
   const response = await fetch(
-    `http://localhost:${PORT}/resources/${userInput}`,
+    `https://projectweek8.onrender.com/resources/${userInput}`,
     {
       headers: {
         Accept: "application/json",
