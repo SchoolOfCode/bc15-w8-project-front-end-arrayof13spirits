@@ -269,7 +269,7 @@ body {
 /* home footer ##################################################################### */
 
 .home--footer {
-  
+  flex-direction: column;
 }
 
 .home--footer-contents {
