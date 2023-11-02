@@ -2,8 +2,16 @@
 html {
   font-size: 10px;
   background-color: #ccdbdc;
-  margin-left: 0;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 
 /* home header ##################################################################### */
 
@@ -11,34 +19,33 @@ html {
   display: flex;
   flex-direction: row;
   line-height: 0;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.home--heading-backbutton-icon, .home--heading-name, .home--heading-soclogo-icon {
+  flex: 1;
 }
 
 .home--heading-backbutton-icon {
   height: 3rem;
   display: flex;
   padding: 5px;
+  text-align: left;
 }
 
-.home--heading-header-container {
+.home--heading-name {
   font-size: 2.5rem;
   font-weight: bold;
   padding: 20px;
-  /* padding-left: 8.7rem;
-  padding-right: 9rem; */
   font-family: "Courier New", Courier, monospace;
-  align-content: center;
+  text-align: center;
 }
 
 .home--heading-soclogo-icon {
   height: 3rem;
   display: flex;
   padding: 5px;
-
-}
-
-.home--heading-socLogo {
-  align-self: flex-end;
+  text-align: right;
 }
 
 /* home nav ########################################################################## */
@@ -109,6 +116,10 @@ html {
 }
 
 /* home main ####################################################################### */
+
+.home--main {
+  flex: 1;
+}
 
 .home--picture {
   display: flex;
@@ -205,9 +216,12 @@ html {
   color: #263d42;
 }
 
+/* RESOURCE-PAGE */
+
 .home--input {
   padding-top: 30px;
   padding-left: 10px;
+  flex: 1;
 }
 
 .home--resource-page-label {
@@ -226,8 +240,6 @@ html {
 }
 
 .home--submit-btn {
-  margin-left: 60px;
-  margin-top: 30px;
   padding: 10px;
   padding-left: 10rem;
   padding-right: 10rem;
@@ -235,32 +247,7 @@ html {
   font-weight: bold;
 }
 
-/* home footer ##################################################################### */
-
-.home--footer {
-  padding: 0;
-}
-
-.home--footer-contents {
-  background-color: #88a0a8;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-}
-
-.home--coach-contact {
-  background-color: #88a0a8;
-  margin-left: 5px;
-}
-
-.home--copyright {
-  background-color: #88a0a8;
-  grid-area: p3;
-  text-align: right;
-  display: flex;
-  margin-left: 15rem;
-  margin-right: 5px;
-}
+/* RESOURCE-LINKS */
 
 #resource1-link-logoID,
 #resource2-link-logoID,
@@ -276,4 +263,34 @@ html {
 #resource3-linkID {
   position: relative;
   bottom: 8px;
+}
+
+
+/* home footer ##################################################################### */
+
+.home--footer {
+  
+}
+
+.home--footer-contents {
+  background-color: #88a0a8;
+  display: flex;
+  padding: 7px;
+  justify-content: space-between;
+}
+
+.home--coach-contact, .home--copyright {
+  flex: 1;
+}
+
+.home--coach-contact {
+  background-color: #88a0a8;
+  display: flex;
+  text-align: left;
+}
+
+.home--copyright {
+  background-color: #88a0a8;
+  display: flex;
+  text-align: right;
 }
