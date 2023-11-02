@@ -10,8 +10,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding-right: 1rem;
 }
-
 
 /* home header ##################################################################### */
 
@@ -22,7 +22,9 @@ body {
   justify-content: space-between;
 }
 
-.home--heading-backbutton-icon, .home--heading-name, .home--heading-soclogo-icon {
+.home--heading-backbutton-icon,
+.home--heading-name,
+.home--heading-soclogo-icon {
   flex: 1;
 }
 
@@ -230,7 +232,8 @@ body {
   margin-top: 20px;
   margin-left: 20px;
   font-weight: bolder;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .home--resource-text-field {
@@ -265,7 +268,6 @@ body {
   bottom: 8px;
 }
 
-
 /* home footer ##################################################################### */
 
 .home--footer {
@@ -279,7 +281,8 @@ body {
   justify-content: space-between;
 }
 
-.home--coach-contact, .home--copyright {
+.home--coach-contact,
+.home--copyright {
   flex: 1;
 }
 
