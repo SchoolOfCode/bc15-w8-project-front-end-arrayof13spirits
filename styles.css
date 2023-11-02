@@ -10,7 +10,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding-right: 1rem;
 }
 
 /* home header ##################################################################### */
@@ -58,7 +57,8 @@ body {
   font-size: 3rem;
   font-weight: bold;
   padding: 4px;
-  margin-left: 5px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .home--nav-topics-list {
@@ -121,6 +121,7 @@ body {
 
 .home--main {
   flex: 1;
+  margin-right: 0.5rem;
 }
 
 .home--picture {
@@ -198,6 +199,8 @@ body {
   height: 245px;
   width: 100%;
   margin: 5px;
+
+  max-width: 99%;
 }
 .resource-button {
   border-radius: 5px;
