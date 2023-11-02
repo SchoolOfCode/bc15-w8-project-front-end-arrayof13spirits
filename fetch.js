@@ -1,5 +1,5 @@
 const PORT = 5555;
-const serverUrl = "https://projectweek8.onrender.com";
+const serverUrl = "https://sochub-back-end.onrender.com";
 let userInput = "";
 
 console.log("linked");
