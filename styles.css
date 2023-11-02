@@ -24,20 +24,21 @@ html {
   font-size: 2.5rem;
   font-weight: bold;
   padding: 20px;
-  padding-left: 8.7rem;
-  padding-right: 9rem;
+  /* padding-left: 8.7rem;
+  padding-right: 9rem; */
   font-family: "Courier New", Courier, monospace;
+  align-content: center;
 }
 
-.home--heading-socLogo {
+.home--heading-soclogo-icon {
   height: 3rem;
   display: flex;
   padding: 5px;
-  margin-left: 20px;
+
 }
 
-.home--soc-logo {
-  height: 5rem;
+.home--heading-socLogo {
+  align-self: flex-end;
 }
 
 /* home nav ########################################################################## */
@@ -108,6 +109,12 @@ html {
 }
 
 /* home main ####################################################################### */
+
+.home--picture {
+  display: flex;
+  width: 40rem;
+  height: 75rem;
+}
 
 .home--resource-links {
   margin-top: 2rem;
